@@ -82,9 +82,9 @@ export default function Intro() {
 
         <div className="text-lg">
           <div>
-            <span className="hidden sm:inline">
+            {/* <span className="hidden sm:inline">
               {personalData.greeting.panjabi}{" "}
-            </span>
+            </span> */}
             <span>{personalData.greeting.english}</span>
           </div>
           <div>
